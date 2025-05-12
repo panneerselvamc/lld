@@ -30,15 +30,20 @@ bundling data (variables) and methods (functions) that operate on that data into
 
 **Access Modifiers:**
 Private: Only in current class
+
 Public: anywhere
+
 protected: accessible in same package
 
 **Abstraction:**
 hiding complex implementation details and showing only the essential features of an object or system
 
 Abstraction is achieved in Java using:
+
 	-> Abstract classes (using the abstract keyword)
+
 	-> Interfaces (using the interface keyword)
+
 It promotes loose coupling and code usability.
 Users interact with objects through well-defined interfaces.
 
@@ -48,16 +53,23 @@ acquire properties and behaviors (fields and methods) from another class (parent
 
 Key:
 extends keyword is used for class inheritance.
+
 _The subclass inherits:_
 1) Non-private fields and methods of the superclass.
+
 2) It can override methods to provide specific behavior.
+
 3) Java supports single inheritance (a class can only extend one class).
 
 Types:
 ✅ 1. Single Inheritance
+
 ✅ 2. Multilevel Inheritance
+
 ✅ 3. Hierarchical Inheritance
+
 ❌ 4. Multiple Inheritance (with classes)
+
 Java does not support multiple inheritance with classes (to avoid the Diamond Problem).
 However, it is supported through interfaces.
 ``
@@ -126,6 +138,7 @@ Inside the child class if you want to call parent class, super.func(); can be ca
 
 
 Difference between Abstract class and Interface:
+
 If we need to have some common code to execute then we need to use Abstract class.
 
 Abstract class:
@@ -151,10 +164,13 @@ If we need dont have some common code to execute then we need to use Interface.
 
 Key:
 Abstract class can have both abstract and non abstract method
+
 Abstract methods can only present under an abstract class
 
 Final Class -> Cannot be extended
+
 Final Method -> cannot be override
+
 Final variable -> cannot change value
 
 Static Function:
