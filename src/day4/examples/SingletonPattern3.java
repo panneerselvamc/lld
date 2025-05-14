@@ -11,7 +11,6 @@ class Hotel {
     public static Hotel getInstance() {
         if (hotel == null) {
             hotel = new Hotel();
-            return hotel;
         }
         return hotel;
     }
